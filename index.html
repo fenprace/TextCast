@@ -2,7 +2,6 @@
 <html ng-app="wavecho">
 <head>
   <title> {{'Hello world!'}} </title>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
   <script src="js/app.js" ></script>
@@ -10,18 +9,18 @@
 </head>
 
 <body>
-  <div class="navbar">
-    <div class="navbar-inner">
-      <a class="brand" href="#posts/">Wavecho</a>
-      <ul class="nav">
-        <li> <a href="#posts/">Home</a> </li>
-      </ul>
-    </div>
+
+  <div class="header">
+    <a href="#/">
+      <div class="logo">
+        <div class="logo-outer">
+          <div class="logo-inner"></div>
+        </div>
+      </div>
+    </a>
   </div>
-  
-  <div class="container row">
-    <div ng-view></div>
-  </div>
+
+  <div ng-view></div>
 
 </body>
 </html>

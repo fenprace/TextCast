@@ -1,8 +1,16 @@
-.page-header {
-  margin-bottom: 54px;
+/* The styles of the Logo */
+.logo-outer {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border: 12px solid #000;
+  border-radius: 240px;
 }
-.post-list {
-  height: 64px;
-  line-height: 0;
-  font-size: 32px;
+
+.logo-inner {
+  width: 0px;
+  height: 0px;
+  margin: 96px auto 0 auto;
+  border: 12px solid #000;
+  border-radius: 30px;
 }
