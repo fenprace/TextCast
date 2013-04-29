@@ -8,9 +8,9 @@ PostsCtrl.$inject = ['$scope', '$http'];
 
 // PostCtrl (show)
 function PostCtrl($scope, $http, $routeParams) {
-  var dataPath = 'data/' + $routeParams.postPath + '.json';
+  var dataUrl = 'data/' + $routeParams.postUrl + '.json';
   
-  $http.get(dataPath).success(function(data) {
+  $http.get(dataUrl).success(function(data) {
     $scope.post = data;
   });
 };
